@@ -1,0 +1,91 @@
+{
+  "project_info": {
+    "project_number": "713177102530",
+    "firebase_url": "https://ifame-51798.firebaseio.com",
+    "project_id": "ifame-51798",
+    "storage_bucket": "ifame-51798.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:713177102530:android:86a6d7884b2ab7f32a235b",
+        "android_client_info": {
+          "package_name": "com.ifame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "713177102530-qkajmeocmvqeahv8ds9lfgp8n5c1it94.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2C4Du5qAsavV2qnZJ75KKgxp7zLAmEeY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "713177102530-qkajmeocmvqeahv8ds9lfgp8n5c1it94.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "713177102530-iff6rqfnc11mfdk7eko4rb6e86u66tmm.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.example.iFame"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:713177102530:android:423ac879da8c8cd92a235b",
+        "android_client_info": {
+          "package_name": "it.univaq.mwt.ifame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "713177102530-de59b69slnidd8q7svsid4d8dkaf8h1o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "it.univaq.mwt.ifame",
+            "certificate_hash": "f3b27fcf370a80dba548b0d24c327ff46982124e"
+          }
+        },
+        {
+          "client_id": "713177102530-qkajmeocmvqeahv8ds9lfgp8n5c1it94.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2C4Du5qAsavV2qnZJ75KKgxp7zLAmEeY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "713177102530-qkajmeocmvqeahv8ds9lfgp8n5c1it94.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "713177102530-iff6rqfnc11mfdk7eko4rb6e86u66tmm.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.example.iFame"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

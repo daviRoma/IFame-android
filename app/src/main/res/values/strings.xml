@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">iFame</string>€
+    <string name="name">Name</string>
+    <string name="surname">Surname</string>
+    <string name="username">Username</string>
+    <string name="email" translatable="false">Email</string>
+    <string name="password" translatable="false">Password</string>
+    <string name="login">Login</string>
+    <string name="signUp">SignUp</string>
+    <string name="retypePassword">Re-type Password</string>
+
+    <string name="title_activity_bottom_bar_controller" translatable="false">BottomBar</string>
+    <string name="title_home">Home</string>
+    <string name="title_my_events">My Events</string>
+    <string name="title_events">Events</string>
+    <string name="title_profile">Profile</string>
+    <string name="info">Account Info</string>
+    <string name="profile_image">Profile Image</string>
+    <string name="birthday">Birthday</string>
+    <string name="edit">Edit</string>
+    <string name="my_preferences">My Preferences</string>
+    <string name="logout">LogOut</string>
+    <string name="change_avatar">Change avatar</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="new_event">New Event</string>
+    <string name="change_password">Change Password</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="edit_preferences">Edit Preferences</string>
+    <string name="next_events">Next Events</string>
+    <string name="for_you">Suggested for you</string>
+    <string name="upcoming_events">Upcoming events</string>
+    <string name="author_message">Message from author</string>
+    <string name="leave">Leave</string>
+    <string name="join">Join</string>
+    <string name="title">Title</string>
+    <string name="participants">Participants</string>
+    <string name="leave_a_message">Leave a message</string>
+    <string name="select_hour">Select hour</string>
+    <string name="select_date">Select date</string>
+    <string name="select_restaurant">Select restaurant</string>
+    <string name="restaurant">Restaurant</string>
+    <string name="date_and_time">Date and time</string>
+    <string name="include_me">Include me</string>
+    <string name="current_participants">Current Participants:</string>
+    <string name="delete">Delete</string>
+    <string name="insertPassword">Insert password to confirm</string>
+    <string name="confirm">Confirm</string>
+    <string name="all_events">All events</string>
+    <string name="city">City</string>
+    <string name="change">Change</string>
+    <string name="set">Set</string>
+    <string name="select_image">Select image</string>
+    <string name="image">Image</string>
+    <string name="email_required">Email required</string>
+    <string name="name_required">Name required</string>
+    <string name="surname_required">Surname required</string>
+    <string name="username_required">Username required</string>
+    <string name="password_required">Password required</string>
+    <string name="auth_failed">Authentication failed</string>
+    <string name="day_required">Day required</string>
+    <string name="hour_required">Hour required</string>
+    <string name="restaurant_required">Restaurant required</string>
+    <string name="participants_number_required">Participants number required</string>
+    <string name="password_mismatch">Passwords mismatch!</string>
+    <string name="password_updated">Password updated</string>
+    <string name="preferences_updated">Preferences updated</string>
+    <string name="no_city_selected">No city selected</string>
+    <string name="select_city">Select city</string>
+    <string name="city_name">City name</string>
+    <string name="get_position">Get position</string>
+    <string name="ok" translatable="false">OK</string>
+    <string name="permission_required_storage">In order to change the profile image, iFame needs the permission to read from storage!</string>
+    <string name="permission_required_location">In order to get current location, iFame needs the permission to use the location provider!</string>
+    <string name="signup_failed">Signup failed</string>
+    <string name="no_events_events">There\'s no events for the current location.</string>
+    <string name="no_events_preferences">There\'s no events based on your preferences.</string>
+    <string name="no_events_my_events">There\'s no events created and no events joined.</string>
+    <string name="password_too_short">Password must be at least 6 characters</string>
+    <string name="created">created</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

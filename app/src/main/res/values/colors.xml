@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3D5A80</color>
+    <color name="colorPrimaryDark">#3D5A80</color>
+    <color name="colorAccent">#EE6C4D</color>
+    <color name="saveButton">#66BB6A</color>
+    <color name="colorPrimaryDarkProfile">#F3722C</color>
+    <color name="backgroundColor">#F8F8F8</color>
+    <color name="chipColor">#3D5A80</color>
+    <color name="profileHeaderColor">#839EC3</color>
+    <color name="textPrimaryColor">#293241</color>
+    <color name="textSecondaryColor">#F8F8F8</color>
+    <color name="deleteColor">#EE6C4D</color>
+</resources>

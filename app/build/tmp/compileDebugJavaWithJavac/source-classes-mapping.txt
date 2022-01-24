@@ -1,0 +1,199 @@
+it/univaq/mwt/ifame/dialog/LoadingSpinnerDialogFragment.java
+ it.univaq.mwt.ifame.dialog.LoadingSpinnerDialogFragment
+it/univaq/mwt/ifame/utility/PreferenceKey.java
+ it.univaq.mwt.ifame.utility.PreferenceKey
+it/univaq/mwt/ifame/fragment/home/HomeFragment.java
+ it.univaq.mwt.ifame.fragment.home.HomeFragment
+ it.univaq.mwt.ifame.fragment.home.HomeFragment$1
+ it.univaq.mwt.ifame.fragment.home.HomeFragment$2
+ it.univaq.mwt.ifame.fragment.home.HomeFragment$2$1
+ it.univaq.mwt.ifame.fragment.home.HomeFragment$2$1$1
+ it.univaq.mwt.ifame.fragment.home.HomeFragment$2$2
+ it.univaq.mwt.ifame.fragment.home.HomeFragment$2$3
+ it.univaq.mwt.ifame.fragment.home.HomeFragment$3
+it/univaq/mwt/ifame/dialog/TimePickerDialogFragment.java
+ it.univaq.mwt.ifame.dialog.TimePickerDialogFragment
+it/univaq/mwt/ifame/BuildConfig.java
+ it.univaq.mwt.ifame.BuildConfig
+it/univaq/mwt/ifame/activity/NewEventActivity.java
+ it.univaq.mwt.ifame.activity.NewEventActivity
+ it.univaq.mwt.ifame.activity.NewEventActivity$1
+ it.univaq.mwt.ifame.activity.NewEventActivity$1$1
+ it.univaq.mwt.ifame.activity.NewEventActivity$2
+ it.univaq.mwt.ifame.activity.NewEventActivity$2$1
+ it.univaq.mwt.ifame.activity.NewEventActivity$3
+ it.univaq.mwt.ifame.activity.NewEventActivity$3$1
+ it.univaq.mwt.ifame.activity.NewEventActivity$4
+ it.univaq.mwt.ifame.activity.NewEventActivity$5
+ it.univaq.mwt.ifame.activity.NewEventActivity$6
+ it.univaq.mwt.ifame.activity.NewEventActivity$7
+it/univaq/mwt/ifame/utility/PermissionManager.java
+ it.univaq.mwt.ifame.utility.PermissionManager
+it/univaq/mwt/ifame/fragment/myevents/MyEventsFragment.java
+ it.univaq.mwt.ifame.fragment.myevents.MyEventsFragment
+ it.univaq.mwt.ifame.fragment.myevents.MyEventsFragment$1
+ it.univaq.mwt.ifame.fragment.myevents.MyEventsFragment$2
+ it.univaq.mwt.ifame.fragment.myevents.MyEventsFragment$3
+ it.univaq.mwt.ifame.fragment.myevents.MyEventsFragment$3$1
+ it.univaq.mwt.ifame.fragment.myevents.MyEventsFragment$3$1$1
+ it.univaq.mwt.ifame.fragment.myevents.MyEventsFragment$3$2
+ it.univaq.mwt.ifame.fragment.myevents.MyEventsFragment$3$3
+it/univaq/mwt/ifame/activity/LoginActivity.java
+ it.univaq.mwt.ifame.activity.LoginActivity
+ it.univaq.mwt.ifame.activity.LoginActivity$1
+ it.univaq.mwt.ifame.activity.LoginActivity$2
+ it.univaq.mwt.ifame.activity.LoginActivity$3
+ it.univaq.mwt.ifame.activity.LoginActivity$4
+ it.univaq.mwt.ifame.activity.LoginActivity$4$1
+ it.univaq.mwt.ifame.activity.LoginActivity$5
+ it.univaq.mwt.ifame.activity.LoginActivity$6
+ it.univaq.mwt.ifame.activity.LoginActivity$7
+ it.univaq.mwt.ifame.activity.LoginActivity$8
+it/univaq/mwt/ifame/dialog/ChooseRestaurantDialogFragment.java
+ it.univaq.mwt.ifame.dialog.ChooseRestaurantDialogFragment
+ it.univaq.mwt.ifame.dialog.ChooseRestaurantDialogFragment$1
+ it.univaq.mwt.ifame.dialog.ChooseRestaurantDialogFragment$2
+ it.univaq.mwt.ifame.dialog.ChooseRestaurantDialogFragment$2$1
+ it.univaq.mwt.ifame.dialog.ChooseRestaurantDialogFragment$2$1$1
+ it.univaq.mwt.ifame.dialog.ChooseRestaurantDialogFragment$2$2
+ it.univaq.mwt.ifame.dialog.ChooseRestaurantDialogFragment$2$3
+it/univaq/mwt/ifame/model/Category.java
+ it.univaq.mwt.ifame.model.Category
+it/univaq/mwt/ifame/model/Participant.java
+ it.univaq.mwt.ifame.model.Participant
+it/univaq/mwt/ifame/utility/Utils.java
+ it.univaq.mwt.ifame.utility.Utils
+it/univaq/mwt/ifame/dialog/EditTagPreferencesDialogFragment.java
+ it.univaq.mwt.ifame.dialog.EditTagPreferencesDialogFragment
+ it.univaq.mwt.ifame.dialog.EditTagPreferencesDialogFragment$1
+ it.univaq.mwt.ifame.dialog.EditTagPreferencesDialogFragment$2
+ it.univaq.mwt.ifame.dialog.EditTagPreferencesDialogFragment$2$1
+ it.univaq.mwt.ifame.dialog.EditTagPreferencesDialogFragment$2$1$1
+ it.univaq.mwt.ifame.dialog.EditTagPreferencesDialogFragment$2$2
+ it.univaq.mwt.ifame.dialog.EditTagPreferencesDialogFragment$2$3
+ it.univaq.mwt.ifame.dialog.EditTagPreferencesDialogFragment$3
+ it.univaq.mwt.ifame.dialog.EditTagPreferencesDialogFragment$4
+ it.univaq.mwt.ifame.dialog.EditTagPreferencesDialogFragment$5
+ it.univaq.mwt.ifame.dialog.EditTagPreferencesDialogFragment$OnDismissPreferencesEditor
+it/univaq/mwt/ifame/utility/CurrentUser.java
+ it.univaq.mwt.ifame.utility.CurrentUser
+it/univaq/mwt/ifame/model/User.java
+ it.univaq.mwt.ifame.model.User
+it/univaq/mwt/ifame/fragment/profile/ProfileFragment.java
+ it.univaq.mwt.ifame.fragment.profile.ProfileFragment
+ it.univaq.mwt.ifame.fragment.profile.ProfileFragment$1
+ it.univaq.mwt.ifame.fragment.profile.ProfileFragment$10
+ it.univaq.mwt.ifame.fragment.profile.ProfileFragment$11
+ it.univaq.mwt.ifame.fragment.profile.ProfileFragment$12
+ it.univaq.mwt.ifame.fragment.profile.ProfileFragment$13
+ it.univaq.mwt.ifame.fragment.profile.ProfileFragment$14
+ it.univaq.mwt.ifame.fragment.profile.ProfileFragment$15
+ it.univaq.mwt.ifame.fragment.profile.ProfileFragment$16
+ it.univaq.mwt.ifame.fragment.profile.ProfileFragment$2
+ it.univaq.mwt.ifame.fragment.profile.ProfileFragment$3
+ it.univaq.mwt.ifame.fragment.profile.ProfileFragment$3$1
+ it.univaq.mwt.ifame.fragment.profile.ProfileFragment$4
+ it.univaq.mwt.ifame.fragment.profile.ProfileFragment$5
+ it.univaq.mwt.ifame.fragment.profile.ProfileFragment$6
+ it.univaq.mwt.ifame.fragment.profile.ProfileFragment$6$1
+ it.univaq.mwt.ifame.fragment.profile.ProfileFragment$7
+ it.univaq.mwt.ifame.fragment.profile.ProfileFragment$8
+ it.univaq.mwt.ifame.fragment.profile.ProfileFragment$9
+it/univaq/mwt/ifame/activity/BottomBarControllerActivity.java
+ it.univaq.mwt.ifame.activity.BottomBarControllerActivity
+it/univaq/mwt/ifame/model/Restaurant.java
+ it.univaq.mwt.ifame.model.Restaurant
+it/univaq/mwt/ifame/dialog/SelectCityDialog.java
+ it.univaq.mwt.ifame.dialog.SelectCityDialog
+ it.univaq.mwt.ifame.dialog.SelectCityDialog$1
+ it.univaq.mwt.ifame.dialog.SelectCityDialog$2
+ it.univaq.mwt.ifame.dialog.SelectCityDialog$3
+ it.univaq.mwt.ifame.dialog.SelectCityDialog$4
+ it.univaq.mwt.ifame.dialog.SelectCityDialog$OnCitySelected
+it/univaq/mwt/ifame/utility/LocationHelper.java
+ it.univaq.mwt.ifame.utility.LocationHelper
+ it.univaq.mwt.ifame.utility.LocationHelper$1
+ it.univaq.mwt.ifame.utility.LocationHelper$OnLocationChangedListener
+it/univaq/mwt/ifame/utility/RestAPI.java
+ it.univaq.mwt.ifame.utility.RestAPI
+ it.univaq.mwt.ifame.utility.RestAPI$Account
+ it.univaq.mwt.ifame.utility.RestAPI$Auth
+ it.univaq.mwt.ifame.utility.RestAPI$Ifame
+it/univaq/mwt/ifame/utility/ImageManager.java
+ it.univaq.mwt.ifame.utility.ImageManager
+ it.univaq.mwt.ifame.utility.ImageManager$1
+ it.univaq.mwt.ifame.utility.ImageManager$2
+ it.univaq.mwt.ifame.utility.ImageManager$2$1
+ it.univaq.mwt.ifame.utility.ImageManager$2$2
+ it.univaq.mwt.ifame.utility.ImageManager$OnStoreCompleted
+it/univaq/mwt/ifame/activity/SignUpActivity.java
+ it.univaq.mwt.ifame.activity.SignUpActivity
+ it.univaq.mwt.ifame.activity.SignUpActivity$1
+ it.univaq.mwt.ifame.activity.SignUpActivity$2
+ it.univaq.mwt.ifame.activity.SignUpActivity$3
+it/univaq/mwt/ifame/model/Event.java
+ it.univaq.mwt.ifame.model.Event
+it/univaq/mwt/ifame/service/NotificationService.java
+ it.univaq.mwt.ifame.service.NotificationService
+it/univaq/mwt/ifame/adapter/ForYouEventAdapter.java
+ it.univaq.mwt.ifame.adapter.ForYouEventAdapter
+ it.univaq.mwt.ifame.adapter.ForYouEventAdapter$ViewHolder
+it/univaq/mwt/ifame/dialog/DatePickerDialogFragment.java
+ it.univaq.mwt.ifame.dialog.DatePickerDialogFragment
+it/univaq/mwt/ifame/utility/Preference.java
+ it.univaq.mwt.ifame.utility.Preference
+it/univaq/mwt/ifame/adapter/RestaurantAdapter.java
+ it.univaq.mwt.ifame.adapter.RestaurantAdapter
+ it.univaq.mwt.ifame.adapter.RestaurantAdapter$OnRestaurantClickListener
+ it.univaq.mwt.ifame.adapter.RestaurantAdapter$ViewHolder
+it/univaq/mwt/ifame/adapter/PreferenceTag.java
+ it.univaq.mwt.ifame.adapter.PreferenceTag
+it/univaq/mwt/ifame/dialog/EditPasswordDialogFragment.java
+ it.univaq.mwt.ifame.dialog.EditPasswordDialogFragment
+ it.univaq.mwt.ifame.dialog.EditPasswordDialogFragment$1
+ it.univaq.mwt.ifame.dialog.EditPasswordDialogFragment$2
+ it.univaq.mwt.ifame.dialog.EditPasswordDialogFragment$3
+ it.univaq.mwt.ifame.dialog.EditPasswordDialogFragment$4
+it/univaq/mwt/ifame/adapter/EventAdapter.java
+ it.univaq.mwt.ifame.adapter.EventAdapter
+ it.univaq.mwt.ifame.adapter.EventAdapter$ViewHolder
+it/univaq/mwt/ifame/adapter/PreferenceTagAdapter.java
+ it.univaq.mwt.ifame.adapter.PreferenceTagAdapter
+ it.univaq.mwt.ifame.adapter.PreferenceTagAdapter$1
+ it.univaq.mwt.ifame.adapter.PreferenceTagAdapter$ViewHolder
+it/univaq/mwt/ifame/model/relation/EventRelation.java
+ it.univaq.mwt.ifame.model.relation.EventRelation
+it/univaq/mwt/ifame/activity/EventDetailActivity.java
+ it.univaq.mwt.ifame.activity.EventDetailActivity
+ it.univaq.mwt.ifame.activity.EventDetailActivity$1
+ it.univaq.mwt.ifame.activity.EventDetailActivity$1$1
+ it.univaq.mwt.ifame.activity.EventDetailActivity$10
+ it.univaq.mwt.ifame.activity.EventDetailActivity$11
+ it.univaq.mwt.ifame.activity.EventDetailActivity$12
+ it.univaq.mwt.ifame.activity.EventDetailActivity$13
+ it.univaq.mwt.ifame.activity.EventDetailActivity$14
+ it.univaq.mwt.ifame.activity.EventDetailActivity$15
+ it.univaq.mwt.ifame.activity.EventDetailActivity$16
+ it.univaq.mwt.ifame.activity.EventDetailActivity$17
+ it.univaq.mwt.ifame.activity.EventDetailActivity$2
+ it.univaq.mwt.ifame.activity.EventDetailActivity$2$1
+ it.univaq.mwt.ifame.activity.EventDetailActivity$3
+ it.univaq.mwt.ifame.activity.EventDetailActivity$4
+ it.univaq.mwt.ifame.activity.EventDetailActivity$5
+ it.univaq.mwt.ifame.activity.EventDetailActivity$6
+ it.univaq.mwt.ifame.activity.EventDetailActivity$7
+ it.univaq.mwt.ifame.activity.EventDetailActivity$8
+ it.univaq.mwt.ifame.activity.EventDetailActivity$9
+it/univaq/mwt/ifame/fragment/events/EventsFragment.java
+ it.univaq.mwt.ifame.fragment.events.EventsFragment
+ it.univaq.mwt.ifame.fragment.events.EventsFragment$1
+ it.univaq.mwt.ifame.fragment.events.EventsFragment$2
+ it.univaq.mwt.ifame.fragment.events.EventsFragment$3
+ it.univaq.mwt.ifame.fragment.events.EventsFragment$4
+ it.univaq.mwt.ifame.fragment.events.EventsFragment$5
+ it.univaq.mwt.ifame.fragment.events.EventsFragment$5$1
+ it.univaq.mwt.ifame.fragment.events.EventsFragment$5$1$1
+ it.univaq.mwt.ifame.fragment.events.EventsFragment$5$2
+ it.univaq.mwt.ifame.fragment.events.EventsFragment$5$3
+ it.univaq.mwt.ifame.fragment.events.EventsFragment$6
+ it.univaq.mwt.ifame.fragment.events.EventsFragment$7
