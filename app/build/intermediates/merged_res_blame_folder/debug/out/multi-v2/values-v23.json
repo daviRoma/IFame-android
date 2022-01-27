@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/davide.romano/Workspace-uni/IFame-android-develop/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
+            "outputFile": "/Users/davide.romano/Workspace-uni/IFame-android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
             "map": [
                 {
                     "source": "/Users/davide.romano/.gradle/caches/transforms-3/3e64f23fc64245d91e9cad5c6c3015a0/transformed/cardview-1.0.0/res/values-v23/values-v23.xml",

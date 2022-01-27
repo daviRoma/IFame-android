@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/davide.romano/Workspace-uni/IFame-android-develop/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lt/values-lt.xml",
+            "outputFile": "/Users/davide.romano/Workspace-uni/IFame-android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lt/values-lt.xml",
             "map": [
                 {
                     "source": "/Users/davide.romano/.gradle/caches/transforms-3/4c6eb22688efe52b41cef0279ca96382/transformed/jetified-firebase-messaging-21.0.0/res/values-lt/values.xml",

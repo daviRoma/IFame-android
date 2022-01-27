@@ -29,15 +29,19 @@ it/univaq/mwt/ifame/activity/NewEventActivity.java
  it.univaq.mwt.ifame.activity.NewEventActivity$7
 it/univaq/mwt/ifame/utility/PermissionManager.java
  it.univaq.mwt.ifame.utility.PermissionManager
-it/univaq/mwt/ifame/fragment/myevents/MyEventsFragment.java
- it.univaq.mwt.ifame.fragment.myevents.MyEventsFragment
- it.univaq.mwt.ifame.fragment.myevents.MyEventsFragment$1
- it.univaq.mwt.ifame.fragment.myevents.MyEventsFragment$2
- it.univaq.mwt.ifame.fragment.myevents.MyEventsFragment$3
- it.univaq.mwt.ifame.fragment.myevents.MyEventsFragment$3$1
- it.univaq.mwt.ifame.fragment.myevents.MyEventsFragment$3$1$1
- it.univaq.mwt.ifame.fragment.myevents.MyEventsFragment$3$2
- it.univaq.mwt.ifame.fragment.myevents.MyEventsFragment$3$3
+it/univaq/mwt/ifame/fragment/events/EventsFragment.java
+ it.univaq.mwt.ifame.fragment.events.EventsFragment
+ it.univaq.mwt.ifame.fragment.events.EventsFragment$1
+ it.univaq.mwt.ifame.fragment.events.EventsFragment$2
+ it.univaq.mwt.ifame.fragment.events.EventsFragment$3
+ it.univaq.mwt.ifame.fragment.events.EventsFragment$4
+ it.univaq.mwt.ifame.fragment.events.EventsFragment$5
+ it.univaq.mwt.ifame.fragment.events.EventsFragment$5$1
+ it.univaq.mwt.ifame.fragment.events.EventsFragment$5$1$1
+ it.univaq.mwt.ifame.fragment.events.EventsFragment$5$2
+ it.univaq.mwt.ifame.fragment.events.EventsFragment$5$3
+ it.univaq.mwt.ifame.fragment.events.EventsFragment$6
+ it.univaq.mwt.ifame.fragment.events.EventsFragment$7
 it/univaq/mwt/ifame/activity/LoginActivity.java
  it.univaq.mwt.ifame.activity.LoginActivity
  it.univaq.mwt.ifame.activity.LoginActivity$1
@@ -57,8 +61,15 @@ it/univaq/mwt/ifame/dialog/ChooseRestaurantDialogFragment.java
  it.univaq.mwt.ifame.dialog.ChooseRestaurantDialogFragment$2$1$1
  it.univaq.mwt.ifame.dialog.ChooseRestaurantDialogFragment$2$2
  it.univaq.mwt.ifame.dialog.ChooseRestaurantDialogFragment$2$3
-it/univaq/mwt/ifame/model/Category.java
- it.univaq.mwt.ifame.model.Category
+it/univaq/mwt/ifame/fragment/myevents/MyEventsFragment.java
+ it.univaq.mwt.ifame.fragment.myevents.MyEventsFragment
+ it.univaq.mwt.ifame.fragment.myevents.MyEventsFragment$1
+ it.univaq.mwt.ifame.fragment.myevents.MyEventsFragment$2
+ it.univaq.mwt.ifame.fragment.myevents.MyEventsFragment$3
+ it.univaq.mwt.ifame.fragment.myevents.MyEventsFragment$3$1
+ it.univaq.mwt.ifame.fragment.myevents.MyEventsFragment$3$1$1
+ it.univaq.mwt.ifame.fragment.myevents.MyEventsFragment$3$2
+ it.univaq.mwt.ifame.fragment.myevents.MyEventsFragment$3$3
 it/univaq/mwt/ifame/model/Participant.java
  it.univaq.mwt.ifame.model.Participant
 it/univaq/mwt/ifame/utility/Utils.java
@@ -184,16 +195,5 @@ it/univaq/mwt/ifame/activity/EventDetailActivity.java
  it.univaq.mwt.ifame.activity.EventDetailActivity$7
  it.univaq.mwt.ifame.activity.EventDetailActivity$8
  it.univaq.mwt.ifame.activity.EventDetailActivity$9
-it/univaq/mwt/ifame/fragment/events/EventsFragment.java
- it.univaq.mwt.ifame.fragment.events.EventsFragment
- it.univaq.mwt.ifame.fragment.events.EventsFragment$1
- it.univaq.mwt.ifame.fragment.events.EventsFragment$2
- it.univaq.mwt.ifame.fragment.events.EventsFragment$3
- it.univaq.mwt.ifame.fragment.events.EventsFragment$4
- it.univaq.mwt.ifame.fragment.events.EventsFragment$5
- it.univaq.mwt.ifame.fragment.events.EventsFragment$5$1
- it.univaq.mwt.ifame.fragment.events.EventsFragment$5$1$1
- it.univaq.mwt.ifame.fragment.events.EventsFragment$5$2
- it.univaq.mwt.ifame.fragment.events.EventsFragment$5$3
- it.univaq.mwt.ifame.fragment.events.EventsFragment$6
- it.univaq.mwt.ifame.fragment.events.EventsFragment$7
+it/univaq/mwt/ifame/model/Category.java
+ it.univaq.mwt.ifame.model.Category

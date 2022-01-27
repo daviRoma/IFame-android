@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/davide.romano/Workspace-uni/IFame-android-develop/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-da/values-da.xml",
+            "outputFile": "/Users/davide.romano/Workspace-uni/IFame-android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-da/values-da.xml",
             "map": [
                 {
                     "source": "/Users/davide.romano/.gradle/caches/transforms-3/57950b19636cbd0ee1edc80a12951572/transformed/navigation-ui-2.3.1/res/values-da/values-da.xml",

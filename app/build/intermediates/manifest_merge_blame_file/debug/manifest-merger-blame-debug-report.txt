@@ -6,22 +6,22 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="22"
-8-->/Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml
+8-->/Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->/Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml
+9-->/Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->/Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:5:5-67
-11-->/Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:5:22-64
+11-->/Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:5:5-67
+11-->/Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:5:22-64
 12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-12-->/Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:6:5-79
-12-->/Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:6:22-76
+12-->/Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:6:5-79
+12-->/Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:6:22-76
 13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-13-->/Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:7:5-81
-13-->/Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:7:22-78
+13-->/Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:7:5-81
+13-->/Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:7:22-78
 14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-14-->/Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:8:5-80
-14-->/Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:8:22-77
+14-->/Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:8:5-80
+14-->/Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:8:22-77
 15
 16    <!-- Include required permissions for Google Maps API to run. -->
 17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -43,112 +43,112 @@
 24-->[com.google.firebase:firebase-iid:21.0.0] /Users/davide.romano/.gradle/caches/transforms-3/9cf762c757c50b09b9982c19b24580e1/transformed/jetified-firebase-iid-21.0.0/AndroidManifest.xml:26:22-79
 25
 26    <application
-26-->/Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:10:5-66:19
+26-->/Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:10:5-66:19
 27        android:allowBackup="false"
-27-->/Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:11:9-36
+27-->/Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:11:9-36
 28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 28-->[androidx.core:core:1.3.1] /Users/davide.romano/.gradle/caches/transforms-3/b9060c8d3606b9ad0a3c7f98717802cb/transformed/core-1.3.1/AndroidManifest.xml:24:18-86
 29        android:debuggable="true"
 30        android:icon="@mipmap/ic_launcher"
-30-->/Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:12:9-43
+30-->/Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:12:9-43
 31        android:label="@string/app_name"
-31-->/Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:13:9-41
+31-->/Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:13:9-41
 32        android:networkSecurityConfig="@xml/network_security_config"
-32-->/Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:18:9-69
+32-->/Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:18:9-69
 33        android:roundIcon="@mipmap/ic_launcher_round"
-33-->/Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:14:9-54
+33-->/Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:14:9-54
 34        android:supportsRtl="true"
-34-->/Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:15:9-35
+34-->/Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:15:9-35
 35        android:testOnly="true"
 36        android:theme="@style/AppTheme"
-36-->/Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:16:9-40
+36-->/Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:16:9-40
 37        android:usesCleartextTraffic="true" >
-37-->/Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:17:9-44
+37-->/Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:17:9-44
 38        <activity
-38-->/Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:19:9-21:52
+38-->/Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:19:9-21:52
 39            android:name="it.univaq.mwt.ifame.activity.EventDetailActivity"
-39-->/Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:20:13-57
+39-->/Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:20:13-57
 40            android:screenOrientation="portrait" />
-40-->/Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:21:13-49
+40-->/Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:21:13-49
 41        <activity
-41-->/Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:22:9-24:52
+41-->/Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:22:9-24:52
 42            android:name="it.univaq.mwt.ifame.activity.NewEventActivity"
-42-->/Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:23:13-54
+42-->/Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:23:13-54
 43            android:screenOrientation="portrait" />
-43-->/Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:24:13-49
+43-->/Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:24:13-49
 44        <activity
-44-->/Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:25:9-38:20
+44-->/Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:25:9-38:20
 45            android:name="it.univaq.mwt.ifame.activity.BottomBarControllerActivity"
-45-->/Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:26:13-65
+45-->/Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:26:13-65
 46            android:label="@string/title_activity_bottom_bar_controller"
-46-->/Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:27:13-73
+46-->/Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:27:13-73
 47            android:screenOrientation="portrait" >
-47-->/Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:28:13-49
+47-->/Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:28:13-49
 48            <intent-filter>
-48-->/Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:30:13-36:29
+48-->/Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:30:13-36:29
 49                <action android:name="android.intent.action.GET_CONTENT" />
-49-->/Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:31:17-76
-49-->/Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:31:25-73
+49-->/Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:31:17-76
+49-->/Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:31:25-73
 50
 51                <data android:mimeType="image/*" />
-51-->/Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:32:17-52
-51-->/Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:32:23-49
+51-->/Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:32:17-52
+51-->/Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:32:23-49
 52
 53                <category android:name="android.intent.category.APP_GALLERY" />
-53-->/Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:34:17-80
-53-->/Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:34:27-77
+53-->/Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:34:17-80
+53-->/Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:34:27-77
 54                <category android:name="android.intent.category.OPENABLE" />
-54-->/Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:35:17-77
-54-->/Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:35:27-74
+54-->/Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:35:17-77
+54-->/Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:35:27-74
 55            </intent-filter>
 56        </activity>
 57        <activity
-57-->/Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:39:9-41:52
+57-->/Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:39:9-41:52
 58            android:name="it.univaq.mwt.ifame.activity.SignUpActivity"
-58-->/Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:40:13-52
+58-->/Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:40:13-52
 59            android:screenOrientation="portrait" />
-59-->/Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:41:13-49
+59-->/Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:41:13-49
 60        <activity
-60-->/Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:42:9-50:20
+60-->/Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:42:9-50:20
 61            android:name="it.univaq.mwt.ifame.activity.LoginActivity"
-61-->/Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:43:13-51
+61-->/Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:43:13-51
 62            android:screenOrientation="portrait" >
-62-->/Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:44:13-49
+62-->/Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:44:13-49
 63            <intent-filter>
-63-->/Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:45:13-49:29
+63-->/Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:45:13-49:29
 64                <action android:name="android.intent.action.MAIN" />
-64-->/Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:46:17-69
-64-->/Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:46:25-66
+64-->/Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:46:17-69
+64-->/Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:46:25-66
 65
 66                <category android:name="android.intent.category.LAUNCHER" />
-66-->/Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:48:17-77
-66-->/Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:48:27-74
+66-->/Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:48:17-77
+66-->/Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:48:27-74
 67            </intent-filter>
 68        </activity>
 69
 70        <service android:name="it.univaq.mwt.ifame.service.NotificationService" >
-70-->/Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:52:9-56:19
-70-->/Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:52:18-61
+70-->/Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:52:9-56:19
+70-->/Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:52:18-61
 71            <intent-filter>
-71-->/Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:53:13-55:29
+71-->/Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:53:13-55:29
 72                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-72-->/Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:54:17-78
-72-->/Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:54:25-75
+72-->/Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:54:17-78
+72-->/Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:54:25-75
 73            </intent-filter>
 74        </service>
 75
 76        <meta-data
-76-->/Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:58:9-60:47
+76-->/Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:58:9-60:47
 77            android:name="com.google.android.maps.v2.API_KEY"
-77-->/Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:59:13-62
+77-->/Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:59:13-62
 78            android:value="@string/map_api" />
-78-->/Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:60:13-44
+78-->/Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:60:13-44
 79        <meta-data
-79-->/Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:61:9-63:57
+79-->/Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:61:9-63:57
 80            android:name="preloaded_fonts"
-80-->/Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:62:13-43
+80-->/Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:62:13-43
 81            android:resource="@array/preloaded_fonts" />
-81-->/Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:63:13-54
+81-->/Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:63:13-54
 82
 83        <!-- Needs to be explicitly declared on P+ -->
 84        <uses-library
@@ -198,7 +198,7 @@
 105-->[com.google.firebase:firebase-auth:20.0.0] /Users/davide.romano/.gradle/caches/transforms-3/d4102fe377ccffbb9a1f5c902453697b/transformed/jetified-firebase-auth-20.0.0/AndroidManifest.xml:45:27-75
 106
 107                <data
-107-->/Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:32:17-52
+107-->/Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:32:17-52
 108                    android:host="firebase.auth"
 109                    android:path="/"
 110                    android:scheme="genericidp" />
@@ -230,7 +230,7 @@
 123-->[com.google.firebase:firebase-auth:20.0.0] /Users/davide.romano/.gradle/caches/transforms-3/d4102fe377ccffbb9a1f5c902453697b/transformed/jetified-firebase-auth-20.0.0/AndroidManifest.xml:45:27-75
 124
 125                <data
-125-->/Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:32:17-52
+125-->/Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:32:17-52
 126                    android:host="firebase.auth"
 127                    android:path="/"
 128                    android:scheme="recaptcha" />
@@ -320,10 +320,10 @@
 175            android:exported="false" >
 175-->[com.google.firebase:firebase-messaging:21.0.0] /Users/davide.romano/.gradle/caches/transforms-3/4c6eb22688efe52b41cef0279ca96382/transformed/jetified-firebase-messaging-21.0.0/AndroidManifest.xml:31:13-37
 176            <intent-filter android:priority="-500" >
-176-->/Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:53:13-55:29
+176-->/Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:53:13-55:29
 177                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-177-->/Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:54:17-78
-177-->/Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:54:25-75
+177-->/Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:54:17-78
+177-->/Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:54:25-75
 178            </intent-filter>
 179        </service>
 180

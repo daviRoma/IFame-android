@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:2:1-68:12
-INJECTED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:2:1-68:12
-INJECTED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:2:1-68:12
-INJECTED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:2:1-68:12
+ADDED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:2:1-68:12
+INJECTED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:2:1-68:12
+INJECTED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:2:1-68:12
+INJECTED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:2:1-68:12
 MERGED from [androidx.navigation:navigation-ui:2.3.1] /Users/davide.romano/.gradle/caches/transforms-3/57950b19636cbd0ee1edc80a12951572/transformed/navigation-ui-2.3.1/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.3.0-alpha03] /Users/davide.romano/.gradle/caches/transforms-3/294c2f8687a45d9a890d900103dc5cbf/transformed/material-1.3.0-alpha03/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/davide.romano/.gradle/caches/transforms-3/15c2d1bffc269ddf926e22bf77252da5/transformed/constraintlayout-2.0.4/AndroidManifest.xml:2:1-11:12
@@ -88,25 +88,25 @@ MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/davide.ro
 MERGED from [io.grpc:grpc-android:1.28.0] /Users/davide.romano/.gradle/caches/transforms-3/8b81be717916f2fde3dbec7140175216/transformed/jetified-grpc-android-1.28.0/AndroidManifest.xml:2:1-13:12
 MERGED from [com.google.firebase:protolite-well-known-types:17.1.0] /Users/davide.romano/.gradle/caches/transforms-3/10c70420ffc6b491c801aa942f653c76/transformed/jetified-protolite-well-known-types-17.1.0/AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.datatransport:transport-api:2.2.0] /Users/davide.romano/.gradle/caches/transforms-3/a1e1fb128bd28de09960413c13623e34/transformed/jetified-transport-api-2.2.0/AndroidManifest.xml:15:1-22:12
-INJECTED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:2:1-68:12
-INJECTED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:2:1-68:12
-INJECTED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:2:1-68:12
+INJECTED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:2:1-68:12
+INJECTED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:2:1-68:12
+INJECTED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:2:1-68:12
 	package
-		ADDED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:3:5-34
-		INJECTED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml
+		ADDED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:3:5-34
+		INJECTED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml
-		ADDED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:2:1-68:12
-		INJECTED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:2:1-68:12
+		INJECTED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml
-		ADDED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:2:1-68:12
-		INJECTED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:2:1-68:12
+		INJECTED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:5:5-67
+ADDED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:5:5-67
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/davide.romano/.gradle/caches/transforms-3/6a3d42a41b7b6b426c703261a9713425/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/davide.romano/.gradle/caches/transforms-3/6a3d42a41b7b6b426c703261a9713425/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
 MERGED from [com.google.firebase:firebase-auth:20.0.0] /Users/davide.romano/.gradle/caches/transforms-3/d4102fe377ccffbb9a1f5c902453697b/transformed/jetified-firebase-auth-20.0.0/AndroidManifest.xml:23:5-67
@@ -124,21 +124,21 @@ MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users
 MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/davide.romano/.gradle/caches/transforms-3/f90e9fb7e11617ecd2ac5a789a05ad4b/transformed/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:26:5-67
 MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/davide.romano/.gradle/caches/transforms-3/f90e9fb7e11617ecd2ac5a789a05ad4b/transformed/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:26:5-67
 	android:name
-		ADDED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:5:22-64
+		ADDED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:5:22-64
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:6:5-79
+ADDED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:6:5-79
 	android:name
-		ADDED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:6:22-76
+		ADDED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:6:22-76
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:7:5-81
+ADDED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:7:5-81
 	android:name
-		ADDED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:7:22-78
+		ADDED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:7:22-78
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:8:5-80
+ADDED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:8:5-80
 	android:name
-		ADDED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:8:22-77
+		ADDED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:8:22-77
 application
-ADDED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:10:5-66:19
+ADDED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:10:5-66:19
 MERGED from [com.google.android.material:material:1.3.0-alpha03] /Users/davide.romano/.gradle/caches/transforms-3/294c2f8687a45d9a890d900103dc5cbf/transformed/material-1.3.0-alpha03/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.3.0-alpha03] /Users/davide.romano/.gradle/caches/transforms-3/294c2f8687a45d9a890d900103dc5cbf/transformed/material-1.3.0-alpha03/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/davide.romano/.gradle/caches/transforms-3/15c2d1bffc269ddf926e22bf77252da5/transformed/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
@@ -202,107 +202,107 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/davi
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.3.1] /Users/davide.romano/.gradle/caches/transforms-3/b9060c8d3606b9ad0a3c7f98717802cb/transformed/core-1.3.1/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:15:9-35
+		ADDED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:15:9-35
 	android:label
-		ADDED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:13:9-41
+		ADDED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:13:9-41
 	android:roundIcon
-		ADDED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:14:9-54
+		ADDED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:14:9-54
 	android:icon
-		ADDED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:12:9-43
+		ADDED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:12:9-43
 	android:allowBackup
-		ADDED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:11:9-36
+		ADDED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:11:9-36
 	android:theme
-		ADDED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:16:9-40
+		ADDED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:16:9-40
 	android:networkSecurityConfig
-		ADDED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:18:9-69
+		ADDED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:18:9-69
 	android:usesCleartextTraffic
-		ADDED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:17:9-44
+		ADDED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:17:9-44
 activity#it.univaq.mwt.ifame.activity.EventDetailActivity
-ADDED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:19:9-21:52
+ADDED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:19:9-21:52
 	android:screenOrientation
-		ADDED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:21:13-49
+		ADDED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:21:13-49
 	android:name
-		ADDED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:20:13-57
+		ADDED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:20:13-57
 activity#it.univaq.mwt.ifame.activity.NewEventActivity
-ADDED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:22:9-24:52
+ADDED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:22:9-24:52
 	android:screenOrientation
-		ADDED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:24:13-49
+		ADDED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:24:13-49
 	android:name
-		ADDED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:23:13-54
+		ADDED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:23:13-54
 activity#it.univaq.mwt.ifame.activity.BottomBarControllerActivity
-ADDED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:25:9-38:20
+ADDED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:25:9-38:20
 	android:screenOrientation
-		ADDED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:28:13-49
+		ADDED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:28:13-49
 	android:label
-		ADDED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:27:13-73
+		ADDED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:27:13-73
 	android:name
-		ADDED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:26:13-65
+		ADDED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:26:13-65
 intent-filter#action:name:android.intent.action.GET_CONTENT+category:name:android.intent.category.APP_GALLERY+category:name:android.intent.category.OPENABLE+data:mimeType:image/*
-ADDED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:30:13-36:29
+ADDED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:30:13-36:29
 action#android.intent.action.GET_CONTENT
-ADDED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:31:17-76
+ADDED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:31:17-76
 	android:name
-		ADDED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:31:25-73
+		ADDED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:31:25-73
 data
-ADDED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:32:17-52
+ADDED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:32:17-52
 	android:mimeType
-		ADDED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:32:23-49
+		ADDED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:32:23-49
 category#android.intent.category.APP_GALLERY
-ADDED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:34:17-80
+ADDED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:34:17-80
 	android:name
-		ADDED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:34:27-77
+		ADDED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:34:27-77
 category#android.intent.category.OPENABLE
-ADDED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:35:17-77
+ADDED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:35:17-77
 	android:name
-		ADDED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:35:27-74
+		ADDED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:35:27-74
 activity#it.univaq.mwt.ifame.activity.SignUpActivity
-ADDED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:39:9-41:52
+ADDED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:39:9-41:52
 	android:screenOrientation
-		ADDED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:41:13-49
+		ADDED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:41:13-49
 	android:name
-		ADDED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:40:13-52
+		ADDED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:40:13-52
 activity#it.univaq.mwt.ifame.activity.LoginActivity
-ADDED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:42:9-50:20
+ADDED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:42:9-50:20
 	android:screenOrientation
-		ADDED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:44:13-49
+		ADDED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:44:13-49
 	android:name
-		ADDED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:43:13-51
+		ADDED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:43:13-51
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:45:13-49:29
+ADDED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:45:13-49:29
 action#android.intent.action.MAIN
-ADDED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:46:17-69
+ADDED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:46:17-69
 	android:name
-		ADDED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:46:25-66
+		ADDED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:46:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:48:17-77
+ADDED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:48:17-77
 	android:name
-		ADDED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:48:27-74
+		ADDED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:48:27-74
 service#it.univaq.mwt.ifame.service.NotificationService
-ADDED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:52:9-56:19
+ADDED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:52:9-56:19
 	android:name
-		ADDED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:52:18-61
+		ADDED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:52:18-61
 intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
-ADDED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:53:13-55:29
+ADDED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:53:13-55:29
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:54:17-78
+ADDED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:54:17-78
 	android:name
-		ADDED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:54:25-75
+		ADDED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:54:25-75
 meta-data#com.google.android.maps.v2.API_KEY
-ADDED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:58:9-60:47
+ADDED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:58:9-60:47
 	android:value
-		ADDED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:60:13-44
+		ADDED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:60:13-44
 	android:name
-		ADDED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:59:13-62
+		ADDED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:59:13-62
 meta-data#preloaded_fonts
-ADDED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:61:9-63:57
+ADDED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:61:9-63:57
 	android:resource
-		ADDED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:63:13-54
+		ADDED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:63:13-54
 	android:name
-		ADDED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml:62:13-43
+		ADDED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml:62:13-43
 uses-sdk
-INJECTED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml
-INJECTED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml
+INJECTED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml
 MERGED from [androidx.navigation:navigation-ui:2.3.1] /Users/davide.romano/.gradle/caches/transforms-3/57950b19636cbd0ee1edc80a12951572/transformed/navigation-ui-2.3.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-ui:2.3.1] /Users/davide.romano/.gradle/caches/transforms-3/57950b19636cbd0ee1edc80a12951572/transformed/navigation-ui-2.3.1/AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.material:material:1.3.0-alpha03] /Users/davide.romano/.gradle/caches/transforms-3/294c2f8687a45d9a890d900103dc5cbf/transformed/material-1.3.0-alpha03/AndroidManifest.xml:20:5-44
@@ -471,16 +471,16 @@ MERGED from [com.google.firebase:protolite-well-known-types:17.1.0] /Users/david
 MERGED from [com.google.firebase:protolite-well-known-types:17.1.0] /Users/davide.romano/.gradle/caches/transforms-3/10c70420ffc6b491c801aa942f653c76/transformed/jetified-protolite-well-known-types-17.1.0/AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.android.datatransport:transport-api:2.2.0] /Users/davide.romano/.gradle/caches/transforms-3/a1e1fb128bd28de09960413c13623e34/transformed/jetified-transport-api-2.2.0/AndroidManifest.xml:18:5-20:41
 MERGED from [com.google.android.datatransport:transport-api:2.2.0] /Users/davide.romano/.gradle/caches/transforms-3/a1e1fb128bd28de09960413c13623e34/transformed/jetified-transport-api-2.2.0/AndroidManifest.xml:18:5-20:41
-INJECTED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml
-INJECTED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml
+INJECTED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml
-		ADDED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml
-		ADDED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/davide.romano/Workspace-uni/IFame-android-develop/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/davide.romano/Workspace-uni/IFame-android/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/davide.romano/.gradle/caches/transforms-3/6a3d42a41b7b6b426c703261a9713425/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
 MERGED from [com.google.firebase:firebase-auth:20.0.0] /Users/davide.romano/.gradle/caches/transforms-3/d4102fe377ccffbb9a1f5c902453697b/transformed/jetified-firebase-auth-20.0.0/AndroidManifest.xml:24:5-79

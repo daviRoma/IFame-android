@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/davide.romano/Workspace-uni/IFame-android-develop/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-gu/values-gu.xml",
+            "outputFile": "/Users/davide.romano/Workspace-uni/IFame-android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-gu/values-gu.xml",
             "map": [
                 {
                     "source": "/Users/davide.romano/.gradle/caches/transforms-3/63f457a49d7d78c4bd4af48643ceeb6d/transformed/jetified-play-services-basement-17.3.0/res/values-gu/values.xml",
