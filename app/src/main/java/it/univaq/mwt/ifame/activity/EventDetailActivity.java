@@ -21,7 +21,6 @@ import com.android.volley.toolbox.Volley;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
-import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.material.bottomsheet.BottomSheetBehavior;
@@ -48,17 +47,15 @@ import it.univaq.mwt.ifame.utility.Preference;
 import it.univaq.mwt.ifame.utility.RestAPI;
 import it.univaq.mwt.ifame.utility.Utils;
 
-public class EventDetailActivity extends AppCompatActivity implements OnMapReadyCallback {
+public class EventDetailActivity extends AppCompatActivity {
     private static final String TAG = EventDetailActivity.class.getSimpleName();
 
     private EventRelation eventRelation;
 
-    private BottomSheetBehavior mapBottomSheetBehavior;
     private TextView participants, title, restaurantName, maxParticipants, message, day, hour, address, authorMessage;
     private ImageView image;
     private CardView cardViewMessage;
     private Button deleteEvent, actionButton;
-    private View mapBottomSheet;
 
     private LoadingSpinnerDialogFragment spinnerDialogFragment;
 
@@ -139,28 +136,6 @@ public class EventDetailActivity extends AppCompatActivity implements OnMapReady
         super.onResume();
     }
 
-    @Override
-    public void onMapReady(GoogleMap googleMap) {
-
-        googleMap.getUiSettings().setAllGesturesEnabled(false);
-
-        MarkerOptions marker = new MarkerOptions();
-        marker.title(eventRelation.restaurant.getName());
-        LatLng latLng = new LatLng(eventRelation.restaurant.getLatitude(), eventRelation.restaurant.getLongitude());
-        marker.position(latLng);
-
-        googleMap.addMarker(marker);
-        googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(latLng, 15));
-
-        googleMap.setOnMapClickListener(new GoogleMap.OnMapClickListener() {
-            @Override
-            public void onMapClick(LatLng latLng) {
-                mapBottomSheetBehavior.setState(BottomSheetBehavior.STATE_EXPANDED);
-            }
-        });
-
-    }
-
     public void deleteEvent(View view) {
         new Thread(new Runnable() {
             @Override
@@ -207,7 +182,6 @@ public class EventDetailActivity extends AppCompatActivity implements OnMapReady
         hour = findViewById(R.id.detailHour);
         address = findViewById(R.id.detailRestaurantAddress);
         image = findViewById(R.id.detailImage);
-        mapBottomSheet = findViewById(R.id.mapBottomSheet);
 
         title.setText(eventRelation.event.getTitle());
         restaurantName.setText(eventRelation.restaurant.getName());
@@ -223,19 +197,10 @@ public class EventDetailActivity extends AppCompatActivity implements OnMapReady
             cardViewMessage.setVisibility(View.GONE);
             authorMessage.setVisibility(View.GONE);
         }
-        if (eventRelation.event.getImage() != null && !eventRelation.event.getImage().isEmpty()) image.setImageBitmap(ImageManager.getInstance(getApplicationContext()).loadImage(eventRelation.event.getImage()));
-        else image.setImageBitmap(ImageManager.getInstance(getApplicationContext()).loadImage("events", eventRelation.event.getImage()));
-
-        mapBottomSheetBehavior = BottomSheetBehavior.from(mapBottomSheet);
-        mapBottomSheet.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                mapBottomSheetBehavior.setState(BottomSheetBehavior.STATE_EXPANDED);
-            }
-        });
-
-        SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.mapContainer);
-        mapFragment.getMapAsync(this);
+        if (eventRelation.event.getImage() != null && !eventRelation.event.getImage().isEmpty()) {
+            Log.i(TAG, "[image]::"+eventRelation.event.getImage());
+            image.setImageBitmap(ImageManager.getInstance(getApplicationContext()).loadImage(eventRelation.event.getImage()));
+        }
 
         if (!eventRelation.event.getIdAuthor().equals(CurrentUser.user.id)) {
             deleteEvent.setVisibility(View.GONE);

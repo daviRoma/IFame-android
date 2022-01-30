@@ -2,6 +2,7 @@ package it.univaq.mwt.ifame.adapter;
 
 import android.content.Context;
 import android.content.Intent;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -45,8 +46,9 @@ public class EventAdapter extends RecyclerView.Adapter<EventAdapter.ViewHolder> 
         holder.totalParticipants.setText(String.valueOf(eventsList.get(position).event.getMaxParticipants()));
         holder.currentParticipants.setText(String.valueOf(eventsList.get(position).participants.size()));
 
-        if (eventsList.get(position).event.getImage() != null && !eventsList.get(position).event.getImage().isEmpty())
+        if (eventsList.get(position).event.getImage() != null && !eventsList.get(position).event.getImage().isEmpty()) {
             holder.image.setImageBitmap(ImageManager.getInstance(context).loadImage("events", eventsList.get(position).event.getImage()));
+        }
 
         if (eventsList.get(position).event.getIdAuthor().equals(CurrentUser.user.id))
             holder.createdTag.setVisibility(View.VISIBLE);

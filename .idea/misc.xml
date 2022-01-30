@@ -8,6 +8,7 @@
         <entry key="app/src/main/res/layout/activity_new_event.xml" value="0.2421875" />
         <entry key="app/src/main/res/layout/adapter_event.xml" value="0.12916666666666668" />
         <entry key="app/src/main/res/layout/fragment_blank.xml" value="0.2328125" />
+        <entry key="app/src/main/res/layout/fragment_events.xml" value="0.23072916666666668" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.21510416666666668" />
         <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.23385416666666667" />
         <entry key="app/src/main/res/xml/network_security_config.xml" value="0.14635416666666667" />

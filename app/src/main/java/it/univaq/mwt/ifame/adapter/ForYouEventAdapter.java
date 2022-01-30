@@ -2,6 +2,7 @@ package it.univaq.mwt.ifame.adapter;
 
 import android.content.Context;
 import android.content.Intent;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -15,10 +16,12 @@ import java.util.ArrayList;
 
 import it.univaq.mwt.ifame.R;
 import it.univaq.mwt.ifame.activity.EventDetailActivity;
+import it.univaq.mwt.ifame.fragment.home.HomeFragment;
 import it.univaq.mwt.ifame.model.relation.EventRelation;
 import it.univaq.mwt.ifame.utility.ImageManager;
 
 public class ForYouEventAdapter extends RecyclerView.Adapter<ForYouEventAdapter.ViewHolder> {
+    private static final String TAG = ForYouEventAdapter.class.getSimpleName();
 
     ArrayList<EventRelation> events;
     Context context;
@@ -42,9 +45,9 @@ public class ForYouEventAdapter extends RecyclerView.Adapter<ForYouEventAdapter.
         holder.day.setText(events.get(position).event.getDay());
         holder.hour.setText(events.get(position).event.getHour());
 
-        if (events.get(position).event.getImage() != null)
+        if (events.get(position).event.getImage() != null) {
             holder.image.setImageBitmap(ImageManager.getInstance(context).loadImage("events", events.get(position).event.getImage()));
-
+        }
 
     }
 

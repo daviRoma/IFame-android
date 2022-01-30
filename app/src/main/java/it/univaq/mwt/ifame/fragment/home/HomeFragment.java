@@ -240,9 +240,9 @@ public class HomeFragment extends Fragment {
 
         try {
             addresses = gcd.getFromLocation(position.latitude, position.longitude, 1);
-            Preference.saveString(getContext(), PreferenceKey.USER_CITY.toString(), addresses.get(0).getLocality());
-            Preference.saveDouble(getContext(), PreferenceKey.USER_LATITUDE.toString(), addresses.get(0).getLatitude());
-            Preference.saveDouble(getContext(), PreferenceKey.USER_LONGITUDE.toString(), addresses.get(0).getLongitude());
+            Preference.saveString(getActivity().getApplicationContext(), PreferenceKey.USER_CITY.toString(), addresses.get(0).getLocality());
+            Preference.saveDouble(getActivity().getApplicationContext(), PreferenceKey.USER_LATITUDE.toString(), addresses.get(0).getLatitude());
+            Preference.saveDouble(getActivity().getApplicationContext(), PreferenceKey.USER_LONGITUDE.toString(), addresses.get(0).getLongitude());
 
             userPosition = position;
             readEventsFromAPI();

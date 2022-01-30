@@ -265,12 +265,7 @@
         android:layout_height="wrap_content"
         app:behavior_hideable="false"
         app:behavior_peekHeight="96dp"
-        app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
-
-        <include layout="@layout/bottom_sheet_map" />
-
-
-    </FrameLayout>
+        app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior"/>
 
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

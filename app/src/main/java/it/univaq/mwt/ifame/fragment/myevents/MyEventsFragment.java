@@ -123,7 +123,7 @@ public class MyEventsFragment extends Fragment {
                 RequestQueue queue = Volley.newRequestQueue(getContext());
                 String requestUrl = RestAPI.Ifame.GET_EVENTS_JOINED + Preference.loadString(getContext(), "username", null);
 
-                Log.i(TAG, "[getMyEvents]::Calling ifame/getMyJoinedEvents");
+                Log.i(TAG, "[getMyEvents]::Calling ifame/events/joined/");
 
                 // Request a string response from the provided URL.
                 StringRequest stringRequest = new StringRequest(Request.Method.GET,  requestUrl,

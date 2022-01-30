@@ -1,8 +1,6 @@
 package it.univaq.mwt.ifame.fragment.events;
 
 import android.content.Context;
-import android.content.Intent;
-import android.content.SharedPreferences;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
 import android.graphics.drawable.Drawable;
@@ -32,15 +30,10 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
-import com.google.android.gms.maps.CameraUpdateFactory;
-import com.google.android.gms.maps.GoogleMap;
-import com.google.android.gms.maps.OnMapReadyCallback;
-import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
-import com.google.android.material.bottomsheet.BottomSheetBehavior;
 import com.google.android.material.snackbar.BaseTransientBottomBar;
 import com.google.android.material.snackbar.Snackbar;
 
@@ -54,41 +47,31 @@ import java.util.List;
 import java.util.Map;
 
 import it.univaq.mwt.ifame.R;
-import it.univaq.mwt.ifame.activity.BottomBarControllerActivity;
-import it.univaq.mwt.ifame.activity.EventDetailActivity;
 import it.univaq.mwt.ifame.adapter.EventAdapter;
 import it.univaq.mwt.ifame.dialog.LoadingSpinnerDialogFragment;
-import it.univaq.mwt.ifame.fragment.home.HomeFragment;
 import it.univaq.mwt.ifame.model.Event;
 import it.univaq.mwt.ifame.model.Participant;
 import it.univaq.mwt.ifame.model.Restaurant;
-import it.univaq.mwt.ifame.model.User;
 import it.univaq.mwt.ifame.model.relation.EventRelation;
-import it.univaq.mwt.ifame.utility.CurrentUser;
 import it.univaq.mwt.ifame.utility.LocationHelper;
 import it.univaq.mwt.ifame.utility.PermissionManager;
 import it.univaq.mwt.ifame.utility.Preference;
 import it.univaq.mwt.ifame.utility.PreferenceKey;
 import it.univaq.mwt.ifame.utility.RestAPI;
 
-public class EventsFragment extends Fragment implements OnMapReadyCallback {
+public class EventsFragment extends Fragment {
     private static final String TAG = EventsFragment.class.getSimpleName();
 
     private EventAdapter eventAdapter;
     private ArrayList<EventRelation> data = new ArrayList<>();
 
-    private BottomSheetBehavior mapBottomSheetBehavior;
     private LoadingSpinnerDialogFragment loadingSpinnerDialogFragment;
     private SwipeRefreshLayout swipeRefreshLayout;
-    private View mapBottomSheet;
     private CoordinatorLayout coordinatorLayout;
     private TextView noEvents;
 
     private LocationHelper helper;
-    private Marker marker;
     private LatLng position;
-    private ArrayList<Marker> eventMarkers = new ArrayList<>();
-    private GoogleMap gMap;
 
     private boolean firstTime = true;
 
@@ -107,7 +90,6 @@ public class EventsFragment extends Fragment implements OnMapReadyCallback {
 
         coordinatorLayout = view.findViewById(R.id.coordinatorLayoutEvents);
         swipeRefreshLayout = view.findViewById(R.id.swipeEventContainer);
-        mapBottomSheet = view.findViewById(R.id.bottomSheetMapEvent);
         noEvents = view.findViewById(R.id.noEventsEvents);
 
         loadingSpinnerDialogFragment = new LoadingSpinnerDialogFragment();
@@ -120,17 +102,6 @@ public class EventsFragment extends Fragment implements OnMapReadyCallback {
 
         eventAdapter = new EventAdapter(data, getContext());
         recyclerView.setAdapter(eventAdapter);
-
-        mapBottomSheetBehavior = BottomSheetBehavior.from(mapBottomSheet);
-        mapBottomSheet.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                mapBottomSheetBehavior.setState(BottomSheetBehavior.STATE_EXPANDED);
-            }
-        });
-
-        //SupportMapFragment mapFragment = (SupportMapFragment) getChildFragmentManager().findFragmentById(R.id.mapContainer);
-        //mapFragment.getMapAsync(this);
 
         swipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
@@ -153,71 +124,6 @@ public class EventsFragment extends Fragment implements OnMapReadyCallback {
     public void onPause() {
         super.onPause();
         if (helper != null) helper.stop(getContext());
-    }
-
-    @Override
-    public void onMapReady(GoogleMap googleMap) {
-        /*
-        setMyLocationMarker();
-
-        gMap = googleMap;
-
-        gMap.getUiSettings().setAllGesturesEnabled(false);
-        gMap.setOnInfoWindowClickListener(new GoogleMap.OnInfoWindowClickListener() {
-            @Override
-            public void onInfoWindowClick(Marker marker) {
-                if (marker.getTag() != null) {
-                    Intent intent = new Intent(getContext(), EventDetailActivity.class);
-                    intent.putExtra("event", (EventRelation) marker.getTag());
-                    startActivity(intent);
-                }
-            }
-        });
-
-        firstTime = false;
-
-        setupMyLocation(position);
-
-        googleMap.setOnMapClickListener(new GoogleMap.OnMapClickListener() {
-            @Override
-            public void onMapClick(LatLng latLng) {
-                mapBottomSheetBehavior.setState(BottomSheetBehavior.STATE_EXPANDED);
-            }
-        });*/
-
-    }
-
-    private void setupMarkers() {
-
-        if (gMap != null) {
-
-            requireActivity().runOnUiThread(new Runnable() {
-                @Override
-                public void run() {
-                    for (Marker m : eventMarkers) m.remove();
-                    eventMarkers.clear();
-                }
-            });
-
-            for (final EventRelation relation : data) {
-                LatLng position = new LatLng(relation.restaurant.getLatitude(), relation.restaurant.getLongitude());
-
-                final MarkerOptions option = new MarkerOptions();
-                option.title(relation.event.getTitle());
-                option.position(position);
-                getActivity().runOnUiThread(new Runnable() {
-                    @Override
-                    public void run() {
-                        Marker marker = gMap.addMarker(option);
-                        marker.setTag(relation);
-                        eventMarkers.add(marker);
-                    }
-                });
-            }
-        }
-
-        if (swipeRefreshLayout != null && swipeRefreshLayout.isRefreshing())
-            swipeRefreshLayout.setRefreshing(false);
     }
 
     private void setMyLocationMarker() {
@@ -371,23 +277,6 @@ public class EventsFragment extends Fragment implements OnMapReadyCallback {
 
         if (data.isEmpty()) getAllEvents();
 
-        if (gMap != null) {
-
-            if (marker == null) {
-
-                MarkerOptions options = new MarkerOptions();
-                options.title(Preference.loadString(getContext(), "username", null));
-                options.position(position);
-                options.icon(BitmapDescriptorFactory.fromBitmap(getBitmapFromVectorDrawable(getContext(), R.drawable.ic_person_marker)));
-                marker = gMap.addMarker(options);
-
-            } else {
-                marker.setPosition(position);
-            }
-
-            gMap.animateCamera(CameraUpdateFactory.newLatLngZoom(marker.getPosition(), 11));
-
-        }
     }
 
     public static Bitmap getBitmapFromVectorDrawable(Context context, int drawableId) {
