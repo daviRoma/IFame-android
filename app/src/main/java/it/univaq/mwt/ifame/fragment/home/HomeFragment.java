@@ -237,17 +237,17 @@ public class HomeFragment extends Fragment {
 
     private void setupMyLocation(LatLng position) {
         if (position == null) return;
+        userPosition = position;
+        readEventsFromAPI();
+        //try {
+            //addresses = gcd.getFromLocation(position.latitude, position.longitude, 1);
+            Preference.saveString(getActivity().getApplicationContext(), PreferenceKey.USER_CITY.toString(), "L'Aquila");
+            Preference.saveDouble(getActivity().getApplicationContext(), PreferenceKey.USER_LATITUDE.toString(), position.latitude);
+            Preference.saveDouble(getActivity().getApplicationContext(), PreferenceKey.USER_LONGITUDE.toString(), position.longitude);
 
-        try {
-            addresses = gcd.getFromLocation(position.latitude, position.longitude, 1);
-            Preference.saveString(getActivity().getApplicationContext(), PreferenceKey.USER_CITY.toString(), addresses.get(0).getLocality());
-            Preference.saveDouble(getActivity().getApplicationContext(), PreferenceKey.USER_LATITUDE.toString(), addresses.get(0).getLatitude());
-            Preference.saveDouble(getActivity().getApplicationContext(), PreferenceKey.USER_LONGITUDE.toString(), addresses.get(0).getLongitude());
 
-            userPosition = position;
-            readEventsFromAPI();
-        } catch (IOException e) {
+        /*} catch (IOException e) {
             e.printStackTrace();
-        }
+        }*/
     }
 }

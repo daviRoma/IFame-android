@@ -2,10 +2,8 @@ it/univaq/mwt/ifame/dialog/LoadingSpinnerDialogFragment.java
  it.univaq.mwt.ifame.dialog.LoadingSpinnerDialogFragment
 it/univaq/mwt/ifame/utility/PreferenceKey.java
  it.univaq.mwt.ifame.utility.PreferenceKey
-it/univaq/mwt/ifame/adapter/PreferenceTagAdapter.java
- it.univaq.mwt.ifame.adapter.PreferenceTagAdapter
- it.univaq.mwt.ifame.adapter.PreferenceTagAdapter$1
- it.univaq.mwt.ifame.adapter.PreferenceTagAdapter$ViewHolder
+it/univaq/mwt/ifame/model/Category.java
+ it.univaq.mwt.ifame.model.Category
 it/univaq/mwt/ifame/dialog/TimePickerDialogFragment.java
  it.univaq.mwt.ifame.dialog.TimePickerDialogFragment
 it/univaq/mwt/ifame/BuildConfig.java
@@ -24,12 +22,16 @@ it/univaq/mwt/ifame/activity/NewEventActivity.java
  it.univaq.mwt.ifame.activity.NewEventActivity$7
 it/univaq/mwt/ifame/utility/PermissionManager.java
  it.univaq.mwt.ifame.utility.PermissionManager
-it/univaq/mwt/ifame/dialog/EditPasswordDialogFragment.java
- it.univaq.mwt.ifame.dialog.EditPasswordDialogFragment
- it.univaq.mwt.ifame.dialog.EditPasswordDialogFragment$1
- it.univaq.mwt.ifame.dialog.EditPasswordDialogFragment$2
- it.univaq.mwt.ifame.dialog.EditPasswordDialogFragment$3
- it.univaq.mwt.ifame.dialog.EditPasswordDialogFragment$4
+it/univaq/mwt/ifame/fragment/events/EventsFragment.java
+ it.univaq.mwt.ifame.fragment.events.EventsFragment
+ it.univaq.mwt.ifame.fragment.events.EventsFragment$1
+ it.univaq.mwt.ifame.fragment.events.EventsFragment$2
+ it.univaq.mwt.ifame.fragment.events.EventsFragment$2$1
+ it.univaq.mwt.ifame.fragment.events.EventsFragment$2$1$1
+ it.univaq.mwt.ifame.fragment.events.EventsFragment$2$2
+ it.univaq.mwt.ifame.fragment.events.EventsFragment$2$3
+ it.univaq.mwt.ifame.fragment.events.EventsFragment$3
+ it.univaq.mwt.ifame.fragment.events.EventsFragment$4
 it/univaq/mwt/ifame/activity/LoginActivity.java
  it.univaq.mwt.ifame.activity.LoginActivity
  it.univaq.mwt.ifame.activity.LoginActivity$1
@@ -49,8 +51,15 @@ it/univaq/mwt/ifame/dialog/ChooseRestaurantDialogFragment.java
  it.univaq.mwt.ifame.dialog.ChooseRestaurantDialogFragment$2$1$1
  it.univaq.mwt.ifame.dialog.ChooseRestaurantDialogFragment$2$2
  it.univaq.mwt.ifame.dialog.ChooseRestaurantDialogFragment$2$3
-it/univaq/mwt/ifame/model/relation/EventRelation.java
- it.univaq.mwt.ifame.model.relation.EventRelation
+it/univaq/mwt/ifame/fragment/myevents/MyEventsFragment.java
+ it.univaq.mwt.ifame.fragment.myevents.MyEventsFragment
+ it.univaq.mwt.ifame.fragment.myevents.MyEventsFragment$1
+ it.univaq.mwt.ifame.fragment.myevents.MyEventsFragment$2
+ it.univaq.mwt.ifame.fragment.myevents.MyEventsFragment$3
+ it.univaq.mwt.ifame.fragment.myevents.MyEventsFragment$3$1
+ it.univaq.mwt.ifame.fragment.myevents.MyEventsFragment$3$1$1
+ it.univaq.mwt.ifame.fragment.myevents.MyEventsFragment$3$2
+ it.univaq.mwt.ifame.fragment.myevents.MyEventsFragment$3$3
 it/univaq/mwt/ifame/model/Participant.java
  it.univaq.mwt.ifame.model.Participant
 it/univaq/mwt/ifame/utility/Utils.java
@@ -127,8 +136,9 @@ it/univaq/mwt/ifame/model/Event.java
  it.univaq.mwt.ifame.model.Event
 it/univaq/mwt/ifame/service/NotificationService.java
  it.univaq.mwt.ifame.service.NotificationService
-it/univaq/mwt/ifame/model/Category.java
- it.univaq.mwt.ifame.model.Category
+it/univaq/mwt/ifame/adapter/ForYouEventAdapter.java
+ it.univaq.mwt.ifame.adapter.ForYouEventAdapter
+ it.univaq.mwt.ifame.adapter.ForYouEventAdapter$ViewHolder
 it/univaq/mwt/ifame/dialog/DatePickerDialogFragment.java
  it.univaq.mwt.ifame.dialog.DatePickerDialogFragment
 it/univaq/mwt/ifame/utility/Preference.java
@@ -139,9 +149,21 @@ it/univaq/mwt/ifame/adapter/RestaurantAdapter.java
  it.univaq.mwt.ifame.adapter.RestaurantAdapter$ViewHolder
 it/univaq/mwt/ifame/adapter/PreferenceTag.java
  it.univaq.mwt.ifame.adapter.PreferenceTag
-it/univaq/mwt/ifame/adapter/ForYouEventAdapter.java
- it.univaq.mwt.ifame.adapter.ForYouEventAdapter
- it.univaq.mwt.ifame.adapter.ForYouEventAdapter$ViewHolder
+it/univaq/mwt/ifame/dialog/EditPasswordDialogFragment.java
+ it.univaq.mwt.ifame.dialog.EditPasswordDialogFragment
+ it.univaq.mwt.ifame.dialog.EditPasswordDialogFragment$1
+ it.univaq.mwt.ifame.dialog.EditPasswordDialogFragment$2
+ it.univaq.mwt.ifame.dialog.EditPasswordDialogFragment$3
+ it.univaq.mwt.ifame.dialog.EditPasswordDialogFragment$4
+it/univaq/mwt/ifame/adapter/EventAdapter.java
+ it.univaq.mwt.ifame.adapter.EventAdapter
+ it.univaq.mwt.ifame.adapter.EventAdapter$ViewHolder
+it/univaq/mwt/ifame/adapter/PreferenceTagAdapter.java
+ it.univaq.mwt.ifame.adapter.PreferenceTagAdapter
+ it.univaq.mwt.ifame.adapter.PreferenceTagAdapter$1
+ it.univaq.mwt.ifame.adapter.PreferenceTagAdapter$ViewHolder
+it/univaq/mwt/ifame/model/relation/EventRelation.java
+ it.univaq.mwt.ifame.model.relation.EventRelation
 it/univaq/mwt/ifame/activity/EventDetailActivity.java
  it.univaq.mwt.ifame.activity.EventDetailActivity
  it.univaq.mwt.ifame.activity.EventDetailActivity$1
@@ -161,9 +183,6 @@ it/univaq/mwt/ifame/activity/EventDetailActivity.java
  it.univaq.mwt.ifame.activity.EventDetailActivity$7
  it.univaq.mwt.ifame.activity.EventDetailActivity$8
  it.univaq.mwt.ifame.activity.EventDetailActivity$9
-it/univaq/mwt/ifame/adapter/EventAdapter.java
- it.univaq.mwt.ifame.adapter.EventAdapter
- it.univaq.mwt.ifame.adapter.EventAdapter$ViewHolder
 it/univaq/mwt/ifame/fragment/home/HomeFragment.java
  it.univaq.mwt.ifame.fragment.home.HomeFragment
  it.univaq.mwt.ifame.fragment.home.HomeFragment$1
@@ -173,22 +192,3 @@ it/univaq/mwt/ifame/fragment/home/HomeFragment.java
  it.univaq.mwt.ifame.fragment.home.HomeFragment$2$2
  it.univaq.mwt.ifame.fragment.home.HomeFragment$2$3
  it.univaq.mwt.ifame.fragment.home.HomeFragment$3
-it/univaq/mwt/ifame/fragment/events/EventsFragment.java
- it.univaq.mwt.ifame.fragment.events.EventsFragment
- it.univaq.mwt.ifame.fragment.events.EventsFragment$1
- it.univaq.mwt.ifame.fragment.events.EventsFragment$2
- it.univaq.mwt.ifame.fragment.events.EventsFragment$2$1
- it.univaq.mwt.ifame.fragment.events.EventsFragment$2$1$1
- it.univaq.mwt.ifame.fragment.events.EventsFragment$2$2
- it.univaq.mwt.ifame.fragment.events.EventsFragment$2$3
- it.univaq.mwt.ifame.fragment.events.EventsFragment$3
- it.univaq.mwt.ifame.fragment.events.EventsFragment$4
-it/univaq/mwt/ifame/fragment/myevents/MyEventsFragment.java
- it.univaq.mwt.ifame.fragment.myevents.MyEventsFragment
- it.univaq.mwt.ifame.fragment.myevents.MyEventsFragment$1
- it.univaq.mwt.ifame.fragment.myevents.MyEventsFragment$2
- it.univaq.mwt.ifame.fragment.myevents.MyEventsFragment$3
- it.univaq.mwt.ifame.fragment.myevents.MyEventsFragment$3$1
- it.univaq.mwt.ifame.fragment.myevents.MyEventsFragment$3$1$1
- it.univaq.mwt.ifame.fragment.myevents.MyEventsFragment$3$2
- it.univaq.mwt.ifame.fragment.myevents.MyEventsFragment$3$3
